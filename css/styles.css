@@ -57,6 +57,15 @@ a {
 
 .main {
   background-color: var(--background1);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .main-text {
@@ -177,4 +186,29 @@ a {
   font-size: 16px;
   color: var(--descriptions);
   line-height: 1.9;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  flex-direction: row-reverse;
+  justify-content: center;
 }
