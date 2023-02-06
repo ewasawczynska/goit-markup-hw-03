@@ -198,7 +198,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  border-bottom: 1px;
+  border-bottom-color: #ececec;
 }
 
 .navigation-bar {
@@ -211,4 +212,35 @@ a {
 .contact {
   flex-direction: row-reverse;
   justify-content: center;
+}
+
+.title-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+}
+
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.section-two {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  flex-basis: calc((100% - 90px) / 4);
+  align-content: stretch;
+  justify-content: center;
+}
+
+.section-title,
+.section-title-background {
+  justify-content: center;
+  align-items: center;
 }
