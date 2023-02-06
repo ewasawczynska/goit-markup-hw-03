@@ -257,3 +257,8 @@ a {
 .portfolio-title {
   border: 1px #eeeeee;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
