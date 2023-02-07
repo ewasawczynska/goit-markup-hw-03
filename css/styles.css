@@ -22,6 +22,7 @@ a {
   color: var(--logo);
   font-family: "Raleway", sans-serif;
   line-height: 1.2;
+  padding-right: 93px;
 }
 .web {
   color: var(--highlights);
@@ -75,9 +76,9 @@ a {
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
-  width: 696px;
-  left: 452px;
-  top: 280px;
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
 
 .main-button {
@@ -87,10 +88,12 @@ a {
   font-size: 16px;
   cursor: pointer;
   line-height: 1.9;
-  width: 200px;
-  left: 700px;
-  top: 430px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
   margin-top: 30px;
+  margin-bottom: 200px;
 }
 
 .category-buttons {
@@ -211,23 +214,26 @@ a {
 
 .page-header {
   display: flex;
-  margin-bottom: 80px;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px;
   border-bottom-color: #ececec;
+  padding-left: 215px;
+  padding-bottom: 25px;
+  padding-top: 24px;
 }
 
 .navigation-bar {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .contact {
-  flex-direction: row-reverse;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 50px;
 }
 
 .title-list {
@@ -269,11 +275,19 @@ a {
 .items {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio-title {
+figure {
   border: 1px #eeeeee;
+}
+
+.portfolio-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .section {
