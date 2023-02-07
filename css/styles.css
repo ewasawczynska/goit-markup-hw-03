@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", "Montserrat", "Open Sans", "Arial", sans-serif;
   color: var(--titles);
   letter-spacing: 0.03em;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -193,9 +194,8 @@ a {
 }
 
 .container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .page-header {
