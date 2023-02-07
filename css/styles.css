@@ -107,6 +107,8 @@ a {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 .category-buttons:focus,
 .category-buttons:active {
@@ -131,6 +133,10 @@ a {
 .footer {
   background-color: var(--background1);
   margin-top: 0;
+  height: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -171,10 +177,13 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .section-title-background {
   background-color: var(--background2);
+  height: 648px;
 }
 
 .name {
