@@ -131,8 +131,6 @@ a {
   background-color: var(--background1);
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
-  padding-right: 1139px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -167,6 +165,7 @@ a {
 
 .text {
   color: var(--descriptions);
+  line-height: 1.7;
 }
 
 .section-title {
@@ -186,12 +185,14 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  background-color: var(--mainandaddress);
+  margin-top: 0;
+  text-align: center;
 }
 
 .job {
-  font-size: 16px;
+  font-weight: 400;
   color: var(--descriptions);
-  line-height: 1.2;
 }
 
 .portfolio-title {
@@ -206,11 +207,6 @@ a {
   font-size: 16px;
   color: var(--descriptions);
   line-height: 1.9;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .page-header {
@@ -249,15 +245,19 @@ a {
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc((100% - 60px) / 3);
+  padding-bottom: 94px;
 }
 
 .section-two {
   display: flex;
   flex-wrap: nowrap;
-  gap: 30px;
+  row-gap: 30px;
   flex-basis: calc((100% - 90px) / 4);
-  justify-content: flex-start;
+  justify-content: center;
   padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+  align-content: stretch;
 }
 
 .section-title,
@@ -278,5 +278,9 @@ a {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
