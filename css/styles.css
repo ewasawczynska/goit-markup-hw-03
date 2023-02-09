@@ -218,7 +218,7 @@ a {
   justify-content: space-between;
   border-bottom: 1px;
   border-bottom-color: #ececec;
-  padding-left: 215px;
+
   padding-bottom: 25px;
   padding-top: 24px;
 }
@@ -276,11 +276,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  flex-basis: calc((100% - 60px) / 3);
+s
 }
 
 figure {
   border: 1px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-title {
@@ -297,4 +298,5 @@ figure {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
