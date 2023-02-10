@@ -36,6 +36,7 @@ a {
 
 .link {
   color: inherit;
+  padding-right: 46px;
 }
 
 .link:focus,
@@ -177,7 +178,7 @@ a {
   line-height: 1.2;
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 94px;
+  margin: 0;
 }
 
 .section-title-background {
@@ -191,11 +192,15 @@ a {
   background-color: var(--mainandaddress);
   margin-top: 0;
   text-align: center;
+  width: 270px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .job {
   font-weight: 400;
   color: var(--descriptions);
+  padding-top: 10px;
 }
 
 .portfolio-title {
@@ -218,15 +223,23 @@ a {
   justify-content: space-between;
   border-bottom: 1px;
   border-bottom-color: #ececec;
-
   padding-bottom: 25px;
   padding-top: 24px;
+  align-items: center;
 }
 
 .navigation-bar {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .contact {
@@ -243,7 +256,8 @@ a {
   align-items: center;
   flex-wrap: nowrap;
   flex-basis: auto;
-  margin-top: 94px;
+  padding: 0;
+  gap: 30px;
 }
 
 .section-one {
@@ -260,10 +274,8 @@ a {
   row-gap: 30px;
   flex-basis: calc((100% - 90px) / 4);
   justify-content: center;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
   align-content: stretch;
+  padding-bottom: 94px;
 }
 
 .section-title,
@@ -276,12 +288,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-s
 }
 
 figure {
   border: 1px solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
+  margin: 0;
 }
 
 .portfolio-title {
@@ -298,5 +310,4 @@ figure {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
 }
