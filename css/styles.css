@@ -178,10 +178,11 @@ a {
   line-height: 1.2;
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 94px;
   margin: 0;
 }
 
-.section-title-background {
+.section-title-backgroundsection {
   background-color: var(--background2);
 }
 
@@ -221,8 +222,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px;
-  border-bottom-color: #ececec;
   padding-bottom: 25px;
   padding-top: 24px;
   align-items: center;
@@ -271,11 +270,14 @@ a {
 .section-two {
   display: flex;
   flex-wrap: nowrap;
-  row-gap: 30px;
-  flex-basis: calc((100% - 90px) / 4);
+  gap: 30px;
   justify-content: center;
-  align-content: stretch;
   padding-bottom: 94px;
+}
+
+.team-card {
+  flex-basis: calc((100% - 90px) / 4);
+  margin: 0;
 }
 
 .section-title,
@@ -291,7 +293,7 @@ a {
   padding-bottom: 94px;
 }
 
-figure {
+.item-box {
   border: 1px solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
   margin: 0;
@@ -301,7 +303,6 @@ figure {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-  padding-right: 24px;
 }
 
 .section {
@@ -310,5 +311,12 @@ figure {
 
 .container {
   max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+  border-width: 100%;
 }
