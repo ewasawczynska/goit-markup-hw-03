@@ -201,7 +201,9 @@ a {
 .job {
   font-weight: 400;
   color: var(--descriptions);
-  padding-top: 10px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 10px;
 }
 
 .portfolio-title {
@@ -248,23 +250,15 @@ a {
   padding-left: 50px;
 }
 
-.title-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-basis: auto;
-  padding: 0;
-  gap: 30px;
-}
-
 .section-one {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  flex-basis: calc((100% - 60px) / 3);
   padding-bottom: 94px;
+}
+
+.image {
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .section-two {
@@ -318,4 +312,33 @@ a {
 .header {
   border-bottom: 1px solid #eeeeee;
   border-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.title-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+  gap: 30px;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.title-list-item {
+  flex-basis: calc((100% - 90px) / 4);
 }
