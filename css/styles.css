@@ -283,13 +283,12 @@ a {
 .items {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 28px;
   padding-bottom: 94px;
 }
 
 .item-box {
-  border: 1px solid #eeeeee;
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 56px) / 3);
   margin: 0;
 }
 
@@ -297,10 +296,8 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-}
-
-.section {
-  padding-top: 94px;
+  border: 1px solid #eeeeee;
+  margin: 0;
 }
 
 .container {
@@ -338,6 +335,7 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  padding-top: 94px;
 }
 
 .title-list-item {
