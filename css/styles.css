@@ -20,6 +20,7 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0px;
 }
 
 ul {
@@ -205,6 +206,9 @@ li {
   margin: 0;
 }
 
+.addition {
+  padding-top: 0;
+}
 .section-title-backgroundsection {
   background-color: var(--background2);
 }
