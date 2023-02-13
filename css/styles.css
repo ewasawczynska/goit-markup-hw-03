@@ -16,6 +16,32 @@ body {
 a {
   text-decoration: none;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .logo {
   font-weight: 700;
   font-size: 26px;
@@ -68,6 +94,8 @@ a {
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-text {
@@ -77,6 +105,8 @@ a {
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 .main-button {
@@ -90,7 +120,6 @@ a {
   padding-bottom: 10px;
   padding-left: 42px;
   padding-right: 41px;
-  margin-top: 30px;
 }
 
 .category-buttons {
@@ -291,29 +320,9 @@ a {
   margin: 0;
 }
 
-.container {
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 header {
   border-bottom: 1px solid #eeeeee;
   border-width: 100%;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  padding-inline-start: 0px;
-}
-
-li {
-  margin: 0;
-  padding: 0;
 }
 
 .title-list {
@@ -323,9 +332,4 @@ li {
 
 .title-list-item {
   flex-basis: calc((100% - 90px) / 4);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
