@@ -337,3 +337,7 @@ header {
 .title-list-item {
   flex-basis: calc((100% - 90px) / 4);
 }
+
+.item-image.no-gap {
+  display: block;
+}
