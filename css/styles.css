@@ -77,6 +77,7 @@ li {
   color: var(--descriptions);
   text-decoration: none;
   line-height: 1.2;
+  flex-basis: calc((100% - 50px) / 2);
 }
 
 .contact:focus,
@@ -85,7 +86,7 @@ li {
   color: var(--highlights);
 }
 
-.main {
+.main-section {
   background-color: var(--background1);
   display: flex;
   flex-direction: column;
@@ -270,11 +271,12 @@ li {
   align-items: center;
 }
 
-.contact {
+.contact-header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-left: 50px;
+  flex-wrap: nowrap;
+  gap: 50px;
 }
 
 .section-one {
@@ -340,4 +342,8 @@ header {
 
 .item-image.no-gap {
   display: block;
+}
+
+figure {
+  margin: 0;
 }
