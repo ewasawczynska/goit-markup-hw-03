@@ -41,7 +41,6 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0px;
 }
 
 .container {
@@ -131,7 +130,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .category-buttons:focus {
   color: var(--highlights);
@@ -139,9 +138,9 @@ body {
 
 .button {
   font-weight: 500;
-  font-size: inherit;
-  cursor: inherit;
-  line-height: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.6;
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
@@ -211,7 +210,6 @@ body {
 
 .name-card {
   background-color: var(--mainandaddress);
-  margin: 0;
   text-align: center;
   width: 270px;
   padding-top: 30px;
@@ -240,7 +238,6 @@ body {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  margin: 0;
 }
 
 .portfolio-name {
